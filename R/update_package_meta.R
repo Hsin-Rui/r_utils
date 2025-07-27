@@ -38,7 +38,7 @@ update_package_meta <- function(fixtures) {
 
   news_file_path <- usethis::proj_path("NEWS.md")
 
-  news_exists <- files.exists(news_file_path)
+  news_exists <- file.exists(news_file_path)
 
   if(!news_exists){
     message("NEWS.md file does not exist, creating it ...")
