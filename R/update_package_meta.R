@@ -11,9 +11,7 @@
 #' @return called for the side effect of updating the package meta data in the DESCRIPTION file and inserting
 #' release-related information in the NEWS.md
 #' @export
-#'
-#' @example
-#'
+#' @examples
 #' \dontrun{
 #' new_features <- c(
 #'  "speeding up the get_data() function",
@@ -30,6 +28,7 @@
 #'@importFrom cli cli_alert_warning
 #'@importFrom cli cli_alert_info
 #'@importFrom fs file_create
+#'@import usethis
 #'
 
 update_package_meta <- function(fixtures) {

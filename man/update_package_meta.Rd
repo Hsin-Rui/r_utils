@@ -20,3 +20,15 @@ release-related information in the NEWS.md
 The function updates the version and the date of the DESCRIPTION file, insert the new version
 and the features/fix messages inside the NEWS.md file, provide informative message.
 }
+\examples{
+\dontrun{
+new_features <- c(
+ "speeding up the get_data() function",
+ "fixing the pull_data()",
+ "minor"
+)
+
+update_package_meta(fixtures = new_features)
+}
+
+}

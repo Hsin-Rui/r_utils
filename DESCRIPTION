@@ -1,6 +1,6 @@
 Package: r.utils
 Title: Convenient functions I enjoy using
-Version: 0.0.1.0000
+Version: 0.0.2
 Authors@R: 
     person("Hsin-Rui", "Lin", , "hsinrui.lin@gmail.com", role = c("aut", "cre"))
 Description: Make my own work easier.
